@@ -3,8 +3,8 @@ import PySimpleGUI as sg
 import time
 import os
 
-if not os.path.exists("todo.data.txt"):
-    with open("todo.data.txt", 'w') as file:
+if not os.path.exists("../pythonProject/web_app1/todo.data.txt"):
+    with open("../pythonProject/web_app1/todo.data.txt", 'w') as file:
         pass
 
 
